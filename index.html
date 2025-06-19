@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="background.css">
+    <script src="script.js" async defer></script>
     <title>Document</title>
 </head>
 <body>
+    <header>Welcome to the Guessing Game</header>
+    <section>
+        <div>
+            <h1>Guess a Number!</h1>
+            <input type="text" id="userGuess">
+            <!-- <button type="submit" id="userSubmit">Submit Answer</button> -->
+        </div>
+        <div>
+            <button id="check_answer">Check Answer</button>
+            <p id="par"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>Image Swap</h2>
+            <button id="swapPicBtn" type="button">Swap Pic</button>
+        </div>
+        <div id="imageDiv">
+            <img class="imageSwap" id="imgOne" src="https://canto-wp-media.s3.amazonaws.com/app/uploads/2019/07/19194417/insert-image-html.jpg" alt="">
+            <img class="imageSwap" id="imgTwo" src="https://campus.w3schools.com/cdn/shop/files/react_930c122c-8d12-4a0a-85ef-67ca7e78bccf.png?v=1734688338" alt="">
+            <img class="imageSwap" id="imgThree" src="https://media.geeksforgeeks.org/wp-content/uploads/20200218154534/CSVSJS.png" alt="">
+        </div>
+    </section>
     
 </body>
 </html>

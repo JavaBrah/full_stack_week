@@ -1,0 +1,18 @@
+
+
+/* rgb 246, 237, 207  creame white*/
+
+
+.imageSwap{
+    float: left;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    align-items: center;
+}
+
+input{
+    box-shadow: 0 0 20px 5px #e08b0c;
+    outline: none;
+    border: 1px solid #e08b0c;
+}
